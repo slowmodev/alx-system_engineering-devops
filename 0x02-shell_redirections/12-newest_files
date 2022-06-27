@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -printf '%TF %TT %p\n' | sort -r | head -10
